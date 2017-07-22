@@ -23,3 +23,7 @@ ratatouille = media.Movie("Ratatouille",
 
 movies = [toy_story, avatar, school_of_rock, ratatouille]
 fresh_tomatoes.open_movies_page(movies)
+
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
